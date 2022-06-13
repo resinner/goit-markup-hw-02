@@ -7,18 +7,40 @@ body {
   font-weight: 400;
 }
 
-li {
+body * {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.visually-hidden {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.nav-link,
+.site-auth,
+.features-list-item,
+.our-work li,
+.team-list-item,
+.footer-list-item,
+.filter-list-item,
+.project-list-item {
   list-style: none;
 }
 
-a {
+.logo,
+.nav-link a,
+.site-auth-link,
+.footer-list-link,
+.footer-list-address-link {
   text-decoration: none;
 }
 
 .nav-link a:hover,
 .nav-link a:focus,
-.site-auth:hover,
-.site-auth:focus,
+.site-auth-link:hover,
+.site-auth-link:focus,
 .footer-list-link:hover,
 .footer-list-link:focus,
 .footer-list-address-link:hover,
@@ -26,8 +48,12 @@ a {
   color: #2196f3;
 }
 
-.logo {
+.logo,
+.logo * {
   font-family: 'Raleway', 'sans-serif';
+}
+
+.logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -43,6 +69,7 @@ a {
   color: #ffffff;
 }
 
+/* Страница Студия*/
 .nav-link a {
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +82,7 @@ a {
   color: #2196f3;
 }
 
-.site-auth {
+.site-auth-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,13 +109,6 @@ a {
   color: #ffffff;
   cursor: pointer;
   padding: 10px 32px;
-}
-
-.features-title {
-  visibility: hidden;
-  width: 0;
-  height: 0;
-  margin: 0;
 }
 
 .features-list-title {
@@ -123,6 +143,13 @@ a {
   background-color: #f5f4fa;
 }
 
+.team-list-item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+}
+
 .team-member-title {
   font-weight: 500;
   font-size: 16px;
@@ -155,4 +182,47 @@ a {
 
 .footer-list-address-link {
   color: #ffffff;
+}
+
+/* Страница портфолио */
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  color: #212121;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+
+.active-filter button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.project-list-item {
+  border: 1px solid #eeeeee;
 }
