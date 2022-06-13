@@ -1,9 +1,158 @@
-/* Применится ко всем абзацам на странице */
-p {
-    font-size: 16px;
-  }
-  
-  /* Применится ко всем ссылкам на странице */
-  a {
-    text-decoration: none;
-  }
+body {
+  font-family: 'Roboto', 'sans-serif';
+  background-color: #ffffff;
+  color: #757575;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link a:hover,
+.nav-link a:focus,
+.site-auth:hover,
+.site-auth:focus,
+.footer-list-link:hover,
+.footer-list-link:focus,
+.footer-list-address-link:hover,
+.footer-list-address-link:focus {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-accent-header {
+  color: #212121;
+}
+
+.logo-accent-footer {
+  color: #ffffff;
+}
+
+.nav-link a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-link-active a {
+  color: #2196f3;
+}
+
+.site-auth {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  background: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 32px;
+}
+
+.features-title {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.features-list-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.features-list-description {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.our-work-title,
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.team-member-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.page-footer {
+  background-color: #2f303a;
+}
+
+.footer-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list-address-link {
+  color: #ffffff;
+}
